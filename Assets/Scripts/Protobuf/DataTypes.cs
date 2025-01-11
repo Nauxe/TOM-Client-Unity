@@ -90,4 +90,8 @@ public static class DataTypes
     public const int PANDALENS_MOMENTS = 504;
     public const int PANDALENS_ERROR = 505;
     public const int PANDALENS_RESET = 506;
+
+
+    // transcript translate data
+    public const int TT_TRANSLATED_MSG = 507;
 }

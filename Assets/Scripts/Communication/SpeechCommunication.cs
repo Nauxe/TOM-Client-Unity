@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
@@ -27,13 +27,13 @@ namespace TOM.Common.Communication
             get
             {
                 Debug.Log(speechResult);
-                VisualLog.Log(speechResult);
+                //VisualLog.Log(speechResult);
                 return this.speechResult;
             }
             set
             {
                 this.speechResult = value;
-                VisualLog.Log(speechResult);
+                //VisualLog.Log(speechResult);
                 Debug.Log(speechResult);
             }
         }
